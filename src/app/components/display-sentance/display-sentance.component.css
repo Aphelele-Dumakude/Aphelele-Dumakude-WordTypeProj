@@ -1,0 +1,28 @@
+.wordcontainer
+{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(32, 39, 39);
+    height: 70vh;
+    justify-items: center;
+    
+}
+
+/* mat-form-field{
+    height: 20px;
+    margin-top: 150px;
+} */
+
+.mat-elevation-z8 {
+    width: 100%;
+    margin-left: 25px;
+}
+  
+
+  
+  td, th {
+    width: 25%;
+    color: black;
+   
+  }

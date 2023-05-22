@@ -1,0 +1,27 @@
+<H1>Add new word</H1>
+<form [formGroup]="wordform">
+    <select  [(ngModel)] = "worType" formControlName="wordtyp">
+        <option>Select word type</option>
+        <option>Pronoun</option>
+        <option>Verb</option>
+        <option>Adverb</option>
+        <option>Adjective</option>
+        <option>Prepostion</option>
+        <option>Conjuction</option>
+        <option>Determiner</option>
+        <option>Exclamation</option>
+        <option>Noun</option>
+    
+    </select>
+    <div class="labelcls">
+        <label for="uname">Enter new Word: </label>
+    </div>
+    
+    
+    <input autocomplete="rutjfkde" formControlName="word"  [(ngModel)] ="newword" type="text" id="uname" name="name"
+     required size="30" required/>
+</form>
+
+
+ <button class="savebtn" (click)=" addWord()">Add word</button>
+ <button (click)=" addWord()" mat-dialog-close>Canceal</button>

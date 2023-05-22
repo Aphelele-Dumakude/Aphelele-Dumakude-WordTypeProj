@@ -1,0 +1,45 @@
+
+
+h1{
+
+    margin-left: 35%;
+    font-weight: bold;
+    font-size: large;
+}
+
+select, input{
+    margin-left: 10%;
+    height: 30px;
+    margin-top: 20px;
+    width: 70%;
+   
+}
+
+.labelcls{
+    width: 100%;
+    padding-top: 60px;
+
+}
+
+label{
+    margin-left: 10%;
+}
+
+
+button
+{
+    width:90px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+
+.savebtn
+{
+    margin-left: 10%;
+
+}
+
+
+
+

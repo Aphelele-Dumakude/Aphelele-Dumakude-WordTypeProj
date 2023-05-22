@@ -1,0 +1,51 @@
+ 
+<div class="wordcontainer">
+    <!-- <h1 style="margin-top: 120px; color: white;">Add Sentence</h1> -->
+    <div >
+        <!-- <label for="country"> Conttry</label> -->
+        <label for="uname">Select word type: </label>
+        <select  [(ngModel)] = "wordtype" (ngModelChange)='showAll($event)'>  
+            <option >Select word type</option>
+            <option>Pronoun</option>
+            <option>Verb</option>
+            <option>Adverb</option>
+            <option>Adjective</option>
+            <option>Prepostion</option>
+            <option>Conjuction</option>
+            <option>Determiner</option>
+            <option>Exclamation</option>
+            <option>Noun</option>
+
+        </select >
+
+        <label for="uname">Select Word: </label>
+           
+        <select [(ngModel)] = "word" (ngModelChange)='addWordToSentence($event)' >  
+            <option *ngFor="let word of words">{{word}}</option>
+        </select>
+       
+        <form >
+            <div>
+              <label for="uname">Make a sentence: </label>
+              <input
+                
+                type="text"
+                id="uname"
+                name="name"
+                required
+                size="90"
+                [(ngModel)] ="sentence"
+                autocomplete="rutjfkde"
+               />
+              <span class="validity"></span>
+              <!-- <p></p> -->
+            </div>
+            <div>
+              <button  (click)="AddSentece()" >Submit</button>
+            </div>
+            <div>
+              <button  (click)="clearText()" >Clear</button>
+            </div>
+          </form>
+    </div>
+</div>

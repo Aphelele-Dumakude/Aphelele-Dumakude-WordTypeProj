@@ -1,0 +1,60 @@
+.wordcontainer
+{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(32, 39, 39);
+    height: 70vh;
+    justify-items: center;
+    
+}
+
+
+.inputOne
+{
+    margin-top: 200px;
+    height: 25px;
+    margin-left: 145px;
+}
+
+.inputTwo{
+    margin-top: 80px;
+    height: 25px;
+    margin-left: 150px;
+}
+
+.inputThree{
+    margin-top: 80px;
+    height: 25px;
+    margin-left: 90px;
+}
+
+.inputFour{
+    margin-top: 80px;
+    height: 25px;
+    margin-left: 43px;
+}
+/* input{
+    margin-top: 200px;
+    height: 25px;
+    margin-left: 10px;
+} */
+
+button
+{
+    margin-top: 40px;
+    width: 100px;
+     height: 50px;
+}
+
+label{
+    color: white;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.myBtn
+{
+    margin-left: 15px;
+}
+
